@@ -139,7 +139,7 @@ img {
     }
  }
 
- 
+
  /* 
  TABLET MEDIA QUERY
  */
@@ -168,7 +168,7 @@ img {
         flex-wrap: wrap;
     }
 
-    body main .row .col{
+    main .row .col{
         width: 100%;
     }
  }
