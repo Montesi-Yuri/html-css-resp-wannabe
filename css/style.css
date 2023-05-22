@@ -128,4 +128,47 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* 
+ DESKTOP MEDIA QUERY
+ */
+
+ @media screen and (max-width:1140px){
+
+    .container{
+        width: 100%;
+    }
+ }
+
  
+ /* 
+ TABLET MEDIA QUERY
+ */
+
+
+ @media screen and (max-width:768px){
+
+    .container{
+        width: 100%;
+    }
+ }
+
+
+ /* 
+ MOBILE MEDIA QUERY
+ */
+
+
+ @media screen and (max-width:480px){
+
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    body main .row .col{
+        width: 100%;
+    }
+ }
